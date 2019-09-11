@@ -1,5 +1,10 @@
-The code will be broke up into two sup problems 
+The code will be broke up into two sub problems 
     1. Creating the map to store the nodes and vertices 
         a. take in the inputs from the user to find their source(starting location) to their endpoint(ending locaiton)
-        b. 
+        b. Read in the file from the user: find_route filename.txt source endpoint
+            - Split by spaces and check to see the last string is INPUT to know it ended
+        c. Create a node class that will contain 
+        d. Use a hashmap to keep track of all of the nodes
+        e. Use an arraylist to actually store the values and use it as a graph
+
     2. Using Djikstras algorithm to find the most optimal solution to the given node
