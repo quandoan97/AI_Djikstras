@@ -1,0 +1,5 @@
+The code will be broke up into two sup problems 
+    1. Creating the map to store the nodes and vertices 
+        a. take in the inputs from the user to find their source(starting location) to their endpoint(ending locaiton)
+        b. 
+    2. Using Djikstras algorithm to find the most optimal solution to the given node
