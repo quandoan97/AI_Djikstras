@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - find_route",
+            "request": "launch",
+            "mainClass": "find_route"
+        }
+    ]
+}

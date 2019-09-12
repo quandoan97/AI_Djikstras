@@ -3,7 +3,7 @@ The code will be broke up into two sub problems
         a. take in the inputs from the user to find their source(starting location) to their endpoint(ending locaiton)x
         b. Read in the file from the user: find_route filename.txt source endpoint x
             - Split by spaces and check to see the last string is INPUT to know it ended
-        c. Create a node class that will contain 
+        c. Create a vertx node class that will contain the city name and its cost to get to it
         d. Use a hashmap to keep track of all of the nodes
         e. Use an arraylist to actually store the values and use it as a graph
 
