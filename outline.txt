@@ -8,3 +8,13 @@ The code will be broke up into two sub problems
         e. Use an arraylist to actually store the values and use it as a graph
 
     2. Using Djikstras algorithm to find the most optimal solution to the given node
+        a. Create a hashmap called total cost to keep track of the total cost to get to a node
+        b. Create a hashmap called previous node to keep track of the previous node from any node that gives the optimal path
+        c. Create a Priority Queue to do logic
+            We add our start node to the PQ
+                Then we check the PQ for the highest priority 
+                We remove that node
+                Then we add the just removed node to the visited set
+                Next add the removed nodes neighbors to the PQ
+                    as we are adding the nodes neighbors we compare to see if it is the shortest path to the previous one and update we keep on doing 
+                    this until we have found the path
